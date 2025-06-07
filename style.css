@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+     text-align: center; 
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(Blue,rgb(95, 198, 11));
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    padding: 10px;
+}
+footer {
+    background-image: linear-gradient( rgb(95, 198, 11), Blue,rgb(0, 0, 0));
+    color: rgb(0, 0, 0);
+    padding:20px;
+    font-size: 20px;
+}
+.head_img{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.product{
+ width: 350px;
+    text-align: center;
+    padding: 100px;
+    border: 10px double crimson;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    position: relative;
+}
+
+
+.dom{
+
+margin:55px ;
+
+}
+
+.dom:hover{
+   transform: scale(2);
+transition: all 2s linear ;
+ 
+}
